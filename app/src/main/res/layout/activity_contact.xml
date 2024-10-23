@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".ContactActivity">
+
+    <TextView
+        android:id="@+id/TV_fisherman_contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="70dp"
+        android:gravity="center_horizontal"
+        android:text="Fisherman"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/TV_contact_contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawablePadding="10dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/TV_fisherman_contact"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:text="Contact"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/TV_forAnyReq_contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawablePadding="10dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/TV_contact_contact"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:text="For any request please"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/TV_contac_contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawablePadding="10dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/TV_forAnyReq_contact"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="Contact :"
+        android:drawableLeft="@drawable/baseline_phone_24"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/TV_no_contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="10dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/TV_contac_contact"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:text="+33 7 88340640"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        />
+
+
+    <TextView
+        android:id="@+id/TV_mail_contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawablePadding="10dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/TV_no_contact"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="Mail :"
+        android:drawableLeft="@drawable/baseline_email_24"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/TV_maill_contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="10dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/TV_mail_contact"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:text="lou.allard@esme.fr"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        />
+
+
+</RelativeLayout>

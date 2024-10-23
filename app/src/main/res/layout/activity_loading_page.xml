@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/splash_background_color"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/TV_fisherman"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="150dp"
+        android:layout_alignParentEnd="true"
+        android:gravity="center_horizontal"
+        android:text="Fisherman"
+        android:textColor="@color/black"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:id="@+id/IV_logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/TV_fisherman"
+        android:src="@drawable/logo_fishman" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:layout_below="@id/IV_logo"
+        app:lottie_rawRes="@raw/anim"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"/>
+
+
+
+</RelativeLayout>

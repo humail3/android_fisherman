@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/TV_fisherman"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/IV_menu_slabs"
+        android:layout_alignBottom="@+id/IV_menu_slabs"
+        android:gravity="center_horizontal"
+        android:text="Fisherman"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:id="@+id/IV_menu_slabs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:padding="7dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/baseline_menu_24" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/BTN_newTake_main"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/new_take"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/BTN_newTake_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:background="@drawable/button_design"
+        android:text="New Take"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/primary"
+        android:textStyle="bold" />
+<ImageView
+    android:layout_width="wrap_content"
+    android:id="@+id/IV_newPlace_main"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_below="@id/BTN_newTake_main"
+    android:layout_marginBottom="10dp"
+    android:layout_marginTop="30dp"
+    android:src="@drawable/new_placee"
+    />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/BTN_newPlace_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_below="@+id/IV_newPlace_main"
+        android:background="@drawable/button_design"
+        android:text="New Place"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/primary"
+        android:textStyle="bold" />
+</RelativeLayout>
